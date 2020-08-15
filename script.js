@@ -10,9 +10,9 @@ const button = document.querySelector('button');
 
 const div = document.querySelector('div');
 
-const changeBackgroundAndFont = () => {
-  const backgroundIndex = parseInt(Math.random() * backgroundColors.length);
-  div.style.backgroundColor = backgroundColors[backgroundIndex];
+const changeBackground = () => {
+  const randomIndex = Math.floor(Math.random() * backgroundColors.length);
+  div.style.backgroundColor = backgroundColors[randomIndex];
 };
 
-button.addEventListener('click', changeBackgroundAndFont);
+button.addEventListener('click', changeBackground);
