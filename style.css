@@ -9,7 +9,7 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: #000;
 }
 
 button {
@@ -20,4 +20,5 @@ button {
   border-radius: 25px;
   background-color: transparent;
   cursor: pointer;
+  outline: none;
 }
