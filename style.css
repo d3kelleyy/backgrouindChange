@@ -21,6 +21,12 @@
 
 h1 {
   font-family: 'Baloo Tamma 2', cursive;
+  z-index: 5;
+  color: #212529;
+}
+
+h2 {
+  font-family: 'Baloo Tamma 2', cursive;
   color: #212529;
 }
 
@@ -29,8 +35,8 @@ button {
   text-align: center;
   border: 2px solid #212529;
   color: #fff;
-  font-size: 1.75rem;
-  padding: 5px 45px;
+  font-size: 1.25rem;
+  padding: 0px 45px;
   border-radius: 50px;
   background-color: #212529;
   cursor: pointer;
