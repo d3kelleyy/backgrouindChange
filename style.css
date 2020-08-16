@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-div {
+.container {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -12,13 +12,28 @@ div {
   background-color: #000;
 }
 
+h1 {
+  font-family: 'Baloo Tamma 2', cursive;
+  color: #6c757d;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 button {
-  border: 5px solid lightgray;
-  color: lightgray;
-  font-size: 24px;
-  padding: 10px 25px;
-  border-radius: 25px;
-  background-color: transparent;
+  font-family: 'Baloo Tamma 2', cursive;
+  text-align: center;
+  border: 2px solid #6c757d;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 5px 45px;
+  border-radius: 50px;
+  background-color: #6c757d;
   cursor: pointer;
   outline: none;
+}
+
+button:hover {
+  background-color: #495057;
+  border: 2px solid #495057;
 }
