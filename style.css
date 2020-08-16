@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .content {
@@ -21,7 +21,6 @@
 
 h1 {
   font-family: 'Baloo Tamma 2', cursive;
-  z-index: 5;
   color: #212529;
 }
 
