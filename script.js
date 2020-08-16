@@ -1,18 +1,19 @@
-const backgroundColors = [
-  '#ABA9BF',
-  '#BEB7DF',
-  '#D4F2D2',
-  '#34113F',
-  '#868784',
-];
+const hexValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F'];
 
 const button = document.querySelector('button');
 
-const div = document.querySelector('div');
+const container = document.querySelector('.container');
 
-const changeBackground = () => {
-  const randomIndex = Math.floor(Math.random() * backgroundColors.length);
-  div.style.backgroundColor = backgroundColors[randomIndex];
+const value = document.getElementById('hex-value');
+
+const changeHex = () => {
+  let hex = '#';
+  for (i = 0; i < 6; i++) {
+    const index = Math.floor(Math.random() * hexValues.length);
+    hex += hexValues[index];
+  }
+  value.textContent = hex;
+  container.style.backgroundColor = hex;
 };
 
-button.addEventListener('click', changeBackground);
+button.addEventListener('click', changeHex);

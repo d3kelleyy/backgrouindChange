@@ -12,23 +12,27 @@
   background-color: #000;
 }
 
+.content {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  width: auto;
+}
+
 h1 {
   font-family: 'Baloo Tamma 2', cursive;
-  color: #6c757d;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 400;
+  color: #212529;
 }
 
 button {
   font-family: 'Baloo Tamma 2', cursive;
   text-align: center;
-  border: 2px solid #6c757d;
+  border: 2px solid #212529;
   color: #fff;
   font-size: 1.25rem;
   padding: 5px 45px;
   border-radius: 50px;
-  background-color: #6c757d;
+  background-color: #212529;
   cursor: pointer;
   outline: none;
 }
