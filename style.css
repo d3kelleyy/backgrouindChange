@@ -19,11 +19,7 @@
   width: auto;
 }
 
-h1 {
-  font-family: 'Baloo Tamma 2', cursive;
-  color: #212529;
-}
-
+h1,
 h2 {
   font-family: 'Baloo Tamma 2', cursive;
   color: #212529;
